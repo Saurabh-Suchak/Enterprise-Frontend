@@ -1,12 +1,12 @@
 import './App.css'
-import ITAssetDashboard from './components/dashboard';
-
+// import Home from './components/Home';
+import AssetsListPage from './components/assets-list';
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <>
-    <ITAssetDashboard />
+    {/* <Home /> */}
+    <AssetsListPage />
     </>
   )
 }
